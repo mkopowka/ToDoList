@@ -39,8 +39,6 @@ namespace TDListCore
             NewWorkTaskTitle = string.Empty;
             NewWorkTaskDescription = string.Empty;
 
-            OnPropertyChanged(nameof(NewWorkTaskTitle));
-            OnPropertyChanged(nameof(NewWorkTaskDescription));
         }
 
         private void DeleteSelectedTask()
