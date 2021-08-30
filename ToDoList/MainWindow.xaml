@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         MinHeight="400"
         MaxHeight="600"
-        Title="MainWindow" Height="450" Width="800">
+        Title="To Do List" Height="500" Width="400">
         <local:WorkTasksPage />
   
 </Window>

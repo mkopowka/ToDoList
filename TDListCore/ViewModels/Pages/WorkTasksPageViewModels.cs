@@ -39,17 +39,15 @@ namespace TDListCore
             NewWorkTaskTitle = string.Empty;
             NewWorkTaskDescription = string.Empty;
 
-            OnPropertyChanged(nameof(NewWorkTaskTitle));
-            OnPropertyChanged(nameof(NewWorkTaskDescription));
         }
 
         private void DeleteSelectedTask()
         {
             var selectedTasks = WorkTaskList.Where(x => x.IsSelected).ToList();
-           foreach (var task in selectedTasks)
+            foreach (var task in selectedTasks)
             {
                 WorkTaskList.Remove(task);
-            }    
+            }
         }
     }
 }
